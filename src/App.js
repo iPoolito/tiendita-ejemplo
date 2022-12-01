@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+import CicloDeVida from './components/CicloDeVida';
+import Fetecher from './components/Fetcher';
+import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import RickAndMorty from './components/RickAndMorty';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<CicloDeVida />} />
+          <Route exact path='/pokemons' element={<Fetecher />} />
+          <Route exact path='/rick-morty' element={<RickAndMorty />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
