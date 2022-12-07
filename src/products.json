@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "title":"Attack On Titan vol. 33",
+        "description":"Eren continúa avanzando mediante el estruendo que arrolla la tierra con la intención de deshacerse de todos los humanos del mundo, a excepción de la isla Paradis. Mikasa, Armin y su grupo quieren ir a Odiha, donde existe la posibilidad de llevar a cabo la revisión del hidroavión que les permitirá perseguir a Eren por el cielo. Pero, para ello, deberán renunciar a Liberio, donde viven las familias de Annie, Reiner y compañía.",
+        "image":"https://m.media-amazon.com/images/I/516Q+Q-btTS.jpg",
+        "category":"manga"
+    },
+    {
+        "id":2,
+        "title":"Chainsaw Man vol. 12",
+        "description":"Se ha hecho de rogar, pero la espera ha merecido la pena. En este nuevo volumen conoceremos al demonio de la guerra, Mitaka, una joven estudiante que descubrirá el odio voraz que sienten por ella sus compañeros de clase y que aprovechará para hacerse más y más fuerte. Pero como suele suceder en estos casos, el límite entre lo ético y lo que la beneficia se interpone en su camino. ¿Se dejará llevar Mitaka por su sed de venganza o cederá ante las normas morales?",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr8k9LkOS4GnJauNLJxDacb9sj-77Mnv_1kCuauaMajit4a_m4cQm7ryd83YWrXAvjPsY&usqp=CAU",
+        "category":"manga"
+    },
+    {
+        "id":3,
+        "title":"Figura",
+        "description":"Ejemplo de descripcion de figura",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr8k9LkOS4GnJauNLJxDacb9sj-77Mnv_1kCuauaMajit4a_m4cQm7ryd83YWrXAvjPsY&usqp=CAU",
+        "category":"figura"
+    }
+]

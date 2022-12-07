@@ -9,11 +9,14 @@ export default function Navbar() {
             <Link to='/'>
                 <p>Logo</p>
             </Link>
-            <Link to='/pokemons'>
+            {/* <Link to='/pokemons'>
                 <p>Pokemons</p>
             </Link>
             <Link to='/rick-morty'>
                 <p>Rick & Morty</p>
+            </Link> */}
+            <Link to="/category/manga">
+                <p>Mangas</p>
             </Link>
         </div>
     )
