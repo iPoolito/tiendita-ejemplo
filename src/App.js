@@ -6,12 +6,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import RickAndMorty from './components/RickAndMorty';
 import CategoryContainer from './components/CategoryContainer';
 import ItemContainer from './components/ItemContainer';
-import cartContext from './context/cartContext';
+import CartProvider from './context/cartContext';
 import Provider from './context/AuthContext/authProvider';
+import Cart from './components/Cart';
 
 function App() {
   return (
-    <cartContext.Provider value={[]}>
+    <CartProvider>
       <Provider>
         <BrowserRouter>
           <div>
@@ -22,11 +23,12 @@ function App() {
           <Route exact path='/rick-morty' element={<RickAndMorty />} /> */}
               <Route path='/category/:categoryName' element={<CategoryContainer />} />
               <Route path='/item/:itemID' element={<ItemContainer />} />
+              <Route path='/cart' element={<Cart />} />
             </Routes>
           </div>
         </BrowserRouter>
       </Provider>
-    </cartContext.Provider>
+    </CartProvider>
   );
 }
 

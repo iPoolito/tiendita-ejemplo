@@ -1,5 +1,6 @@
 import './style.css'
 import { Link } from 'react-router-dom'
+import CartWidget from './CartWidget'
 
 export default function Navbar() {
 
@@ -18,6 +19,7 @@ export default function Navbar() {
             <Link to="/category/manga">
                 <p>Mangas</p>
             </Link>
+            <Link to="/cart" className="linkInactivo"><CartWidget /></Link>
         </div>
     )
 
